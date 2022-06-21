@@ -1,0 +1,92 @@
+body{
+    font-family: 'Montserrat',
+    sans-serif;
+}
+.rectangle{
+    width: 27px;
+    height: 9px;
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+    border-radius: 4.5px;
+}
+.navbarHeading{
+    /* font-family: 'Montserrat',
+    sans-serif; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 24px;
+    /* identical to box height, or 104% */
+    
+    letter-spacing: 2px;
+    
+    /* Text/text-gray-dark */
+    
+    color: #292B2E;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.author{
+    color:#586069;
+}
+.ellipse{
+    height: 5px;
+    width: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius:50%;
+    background-color: #586069;
+}
+img{
+    height:65vh;
+}
+.accordion-item{
+    border:none !important
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button{
+    color:grey;
+    padding-left: 31px;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+    color: grey;
+    box-shadow: none;
+}
+.accordion-button::after{
+    position: absolute;
+    left: 0rem;
+}
+
+.carousel-control-next {
+    /* right: -31px; */
+    width:1em;
+    background-color: #F6F8FA;
+    border-radius: 25px;
+}
+.carousel-control-prev {
+    /* right: -31px; */
+    width:1em;
+    background-color: #F6F8FA;
+    border-radius: 25px;
+}
+.carousel-item {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+/* .footer{
+    position: fixed;
+    bottom: 0px;
+} */
+@media screen and (max-width: 787px){
+.carousel-item {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+}
